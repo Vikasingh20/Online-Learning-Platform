@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="TypescriptDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Courses">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Img" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="Descriptions" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="Content" Type="varchar" MaxLength="100" />
+          <Property Name="Category" Type="varchar" MaxLength="100" />
+          <Property Name="Fee" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Enrolled">
+          <Key>
+            <PropertyRef Name="EnrolledID" />
+          </Key>
+          <Property Name="EnrolledID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserID" Type="int" />
+          <Property Name="Names" Type="varchar" MaxLength="50" />
+          <Property Name="CourseID" Type="int" />
+          <Property Name="Title" Type="varchar" MaxLength="100" />
+          <Property Name="Img" Type="varchar" MaxLength="500" />
+          <Property Name="Desriptions" Type="varchar" MaxLength="500" />
+          <Property Name="Content" Type="varchar" MaxLength="100" />
+          <Property Name="Category" Type="varchar" MaxLength="100" />
+          <Property Name="Fee" Type="int" />
+          <Property Name="CourseStatus" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SignUp">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Names" Type="varchar" MaxLength="50" />
+          <Property Name="Passwords" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="55" />
+          <Property Name="UserType" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <Association Name="FK__Enrolled__Course__31EC6D26">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="0..1" />
+          <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Enrolled">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Enrolled__UserID__30F848ED">
+          <End Role="SignUp" Type="Self.SignUp" Multiplicity="0..1" />
+          <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SignUp">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Enrolled">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TypescriptDataBaseModelStoreContainer">
+          <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Enrolled" EntityType="Self.Enrolled" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SignUp" EntityType="Self.SignUp" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Enrolled__Course__31EC6D26" Association="Self.FK__Enrolled__Course__31EC6D26">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Enrolled" EntitySet="Enrolled" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Enrolled__UserID__30F848ED" Association="Self.FK__Enrolled__UserID__30F848ED">
+            <End Role="SignUp" EntitySet="SignUp" />
+            <End Role="Enrolled" EntitySet="Enrolled" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TypescriptDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cours">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Img" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Descriptions" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Content" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Fee" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Enrolleds" Relationship="Self.FK__Enrolled__Course__31EC6D26" FromRole="Courses" ToRole="Enrolled" />
+        </EntityType>
+        <EntityType Name="Enrolled">
+          <Key>
+            <PropertyRef Name="EnrolledID" />
+          </Key>
+          <Property Name="EnrolledID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int32" />
+          <Property Name="Names" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CourseID" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Img" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Desriptions" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="Content" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Fee" Type="Int32" />
+          <Property Name="CourseStatus" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Cours" Relationship="Self.FK__Enrolled__Course__31EC6D26" FromRole="Enrolled" ToRole="Courses" />
+          <NavigationProperty Name="SignUp" Relationship="Self.FK__Enrolled__UserID__30F848ED" FromRole="Enrolled" ToRole="SignUp" />
+        </EntityType>
+        <EntityType Name="SignUp">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Names" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Passwords" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="55" FixedLength="false" Unicode="false" />
+          <Property Name="UserType" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Enrolleds" Relationship="Self.FK__Enrolled__UserID__30F848ED" FromRole="SignUp" ToRole="Enrolled" />
+        </EntityType>
+        <Association Name="FK__Enrolled__Course__31EC6D26">
+          <End Role="Courses" Type="Self.Cours" Multiplicity="0..1" />
+          <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Enrolled">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Enrolled__UserID__30F848ED">
+          <End Role="SignUp" Type="Self.SignUp" Multiplicity="0..1" />
+          <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SignUp">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Enrolled">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TypescriptDataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Courses" EntityType="Self.Cours" />
+          <EntitySet Name="Enrolleds" EntityType="Self.Enrolled" />
+          <EntitySet Name="SignUps" EntityType="Self.SignUp" />
+          <AssociationSet Name="FK__Enrolled__Course__31EC6D26" Association="Self.FK__Enrolled__Course__31EC6D26">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Enrolled" EntitySet="Enrolleds" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Enrolled__UserID__30F848ED" Association="Self.FK__Enrolled__UserID__30F848ED">
+            <End Role="SignUp" EntitySet="SignUps" />
+            <End Role="Enrolled" EntitySet="Enrolleds" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TypescriptDataBaseModelStoreContainer" CdmEntityContainer="TypescriptDataBaseEntities">
+          <EntitySetMapping Name="Courses">
+            <EntityTypeMapping TypeName="TypescriptDataBaseModel.Cours">
+              <MappingFragment StoreEntitySet="Courses">
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Img" ColumnName="Img" />
+                <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Enrolleds">
+            <EntityTypeMapping TypeName="TypescriptDataBaseModel.Enrolled">
+              <MappingFragment StoreEntitySet="Enrolled">
+                <ScalarProperty Name="EnrolledID" ColumnName="EnrolledID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Names" ColumnName="Names" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Img" ColumnName="Img" />
+                <ScalarProperty Name="Desriptions" ColumnName="Desriptions" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+                <ScalarProperty Name="CourseStatus" ColumnName="CourseStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SignUps">
+            <EntityTypeMapping TypeName="TypescriptDataBaseModel.SignUp">
+              <MappingFragment StoreEntitySet="SignUp">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Names" ColumnName="Names" />
+                <ScalarProperty Name="Passwords" ColumnName="Passwords" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

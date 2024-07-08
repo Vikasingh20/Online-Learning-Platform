@@ -1,0 +1,239 @@
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\obj\Debug\WebApiExam.csprojResolveAssemblyReference.cache
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\csc.exe
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\System.Collections.Immutable.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\vbc.exe
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\VBCSCompiler.exe
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\roslyn\VBCSCompiler.exe.config
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\WebApiExam.dll.config
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\WebApiExam.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\WebApiExam.pdb
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Antlr3.Runtime.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\EntityFramework.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\EntityFramework.SqlServer.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Google.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Web.Infrastructure.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Newtonsoft.Json.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Owin.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Net.Http.Formatting.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Helpers.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.Owin.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.WebHost.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Mvc.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Optimization.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Razor.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.Deployment.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.Razor.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\WebGrease.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Newtonsoft.Json.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Net.Http.Formatting.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Helpers.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.WebHost.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Mvc.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Optimization.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Razor.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.Deployment.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.WebPages.Razor.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Antlr3.Runtime.pdb
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\EntityFramework.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\EntityFramework.SqlServer.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Google.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.Owin.xml
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\obj\Debug\WebApiExam.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\obj\Debug\WebApiExam.pdb
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Cors.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.Cors.dll
+D:\C#\Vikas singh\Exam\WebApiExam\WebApiExam\bin\System.Web.Http.Cors.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\csc.exe
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\vbc.exe
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\VBCSCompiler.exe
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\WebApiExam.dll.config
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\WebApiExam.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\WebApiExam.pdb
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Antlr3.Runtime.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\EntityFramework.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\EntityFramework.SqlServer.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Newtonsoft.Json.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Owin.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Net.Http.Formatting.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Cors.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Helpers.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.Cors.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.Owin.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.WebHost.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Mvc.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Optimization.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Razor.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.Deployment.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.Razor.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\WebGrease.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Net.Http.Formatting.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.Cors.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Newtonsoft.Json.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Helpers.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.WebHost.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Mvc.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Optimization.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Razor.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.Deployment.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.WebPages.Razor.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Antlr3.Runtime.pdb
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\EntityFramework.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\EntityFramework.SqlServer.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\bin\System.Web.Http.Owin.xml
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\obj\Debug\WebApiExam.csprojResolveAssemblyReference.cache
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\obj\Debug\WebApiExam.dll
+C:\Users\irfan.shaikh\Downloads\WebApiExam_Vikas Singh\WebApiExam\vs code\WebApiExam\obj\Debug\WebApiExam.pdb
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\csc.exe
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\System.Collections.Immutable.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\vbc.exe
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\VBCSCompiler.exe
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\roslyn\VBCSCompiler.exe.config
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\WebApiExam.dll.config
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\WebApiExam.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\WebApiExam.pdb
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Antlr3.Runtime.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\EntityFramework.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\EntityFramework.SqlServer.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Google.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Web.Infrastructure.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Newtonsoft.Json.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Owin.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Net.Http.Formatting.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Cors.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Helpers.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.Cors.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.Owin.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.WebHost.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Mvc.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Optimization.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Razor.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.Deployment.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.Razor.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\WebGrease.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Net.Http.Formatting.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.Cors.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Newtonsoft.Json.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Helpers.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.WebHost.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Mvc.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Optimization.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Razor.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.Deployment.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.WebPages.Razor.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Antlr3.Runtime.pdb
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\EntityFramework.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\EntityFramework.SqlServer.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Google.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\bin\System.Web.Http.Owin.xml
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\obj\Debug\WebApiExam.dll
+D:\VikasSingh\TypescriptFinal\TypescriptVikasSingh\WebApi\WebApiExam\obj\Debug\WebApiExam.pdb

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TypescriptDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Name="CourseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Img" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Descriptions" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Content" Type="varchar" MaxLength="100" />
+    <Property Name="Category" Type="varchar" MaxLength="100" />
+    <Property Name="Fee" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Enrolled">
+    <Key>
+      <PropertyRef Name="EnrolledID" />
+    </Key>
+    <Property Name="EnrolledID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="Names" Type="varchar" MaxLength="50" />
+    <Property Name="CourseID" Type="int" />
+    <Property Name="Title" Type="varchar" MaxLength="100" />
+    <Property Name="Img" Type="varchar" MaxLength="500" />
+    <Property Name="Desriptions" Type="varchar" MaxLength="500" />
+    <Property Name="Content" Type="varchar" MaxLength="100" />
+    <Property Name="Category" Type="varchar" MaxLength="100" />
+    <Property Name="Fee" Type="int" />
+    <Property Name="CourseStatus" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="SignUp">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Names" Type="varchar" MaxLength="50" />
+    <Property Name="Passwords" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="55" />
+    <Property Name="UserType" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__Enrolled__Course__31EC6D26">
+    <End Role="Courses" Type="Self.Courses" Multiplicity="0..1" />
+    <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="CourseID" />
+      </Principal>
+      <Dependent Role="Enrolled">
+        <PropertyRef Name="CourseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Enrolled__UserID__30F848ED">
+    <End Role="SignUp" Type="Self.SignUp" Multiplicity="0..1" />
+    <End Role="Enrolled" Type="Self.Enrolled" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SignUp">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Enrolled">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TypescriptDataBaseModelStoreContainer">
+    <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Enrolled" EntityType="Self.Enrolled" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SignUp" EntityType="Self.SignUp" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Enrolled__Course__31EC6D26" Association="Self.FK__Enrolled__Course__31EC6D26">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Enrolled" EntitySet="Enrolled" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Enrolled__UserID__30F848ED" Association="Self.FK__Enrolled__UserID__30F848ED">
+      <End Role="SignUp" EntitySet="SignUp" />
+      <End Role="Enrolled" EntitySet="Enrolled" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

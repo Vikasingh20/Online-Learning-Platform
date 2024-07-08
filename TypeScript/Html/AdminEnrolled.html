@@ -1,0 +1,255 @@
+
+<html lang="en" >
+<html>
+<head>
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>  -->
+  <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <style>
+    
+    a{
+        margin: 0px 20px;
+    }
+    .SignUp{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .form-inline{
+            display: flex;
+        }
+        .form-inline .btn{
+            margin-left: 5px;
+        }
+        .insert-form .row{
+            display: block;
+            max-width: 200px;
+            /* clear: left; */
+            /* display: flex; */
+        }
+        .insert-form .btn{
+            margin: 10px 5px;
+        }
+        div h3{
+            max-width: 200px;
+            /* text-align: center; */
+            padding-left: 20px;
+        }
+        .modal-body .inp{
+            margin: 5px 20px;
+            background: transparent;
+            border: none;
+            border-radius: 5px;
+           
+
+        }
+        .modal-body .inp:focus{
+            outline: none;
+        }
+
+ </style>
+</head>
+
+<body class="Product-body">
+
+
+    <!-- //------------------ nav bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="Home.html">L'Earn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Records
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="AdminSignUp.html">Sign Up Records</a>
+                <a class="dropdown-item" href="AdminEnrolled.html">Enrollment Report</a>
+              <!-- </div> -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Log Out</a>
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
+    
+   
+
+    <section class="SignUp">
+        <div>
+            <h2>Enrollment Report</h2>
+            <br />
+            <br />
+
+            <!-- table to display details  -->
+            <table class="table ProdTable">
+                <tr>
+                    <th>Enrolled ID</th>
+                    <th>Course Title</th>
+                    <th>Student Name</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="modal fade" id="ViewModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Course Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tr>
+                                <td>Enrolled ID: </td>
+                                <td><input class="inp" type="text" id="ip-enrolledId" placeholder="Auto Generated" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Student ID: </td>
+                                <td><input class="inp" type="text" id="ip-studentId" placeholder="Auto Generated" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Student Name: </td>
+                                <td><input class="inp" type="text" id="ip-studentName" placeholder="Auto Generated" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Course ID: </td>
+                                <td><input class="inp" type="text" id="ip-courseId" placeholder="Auto Generated" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Title: </td>
+                                <td><input type="text"  class="inp" id="ip-courseTitle" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Description: </td>
+                                <td><input type="text"  class="inp" id="ip-courseDescription" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Content: </td>
+                                <td><input type="text"  class="inp" id="ip-courseContent" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Fee: </td>
+                                <td><input type="text"  class="inp" id="ip-courseFee" disabled></td>
+                            </tr>
+                            <tr>
+                                <td>Category: </td>
+                                <td><input type="text"  class="inp" id="ip-courseCategory" disabled></td>
+                            </tr>   
+                            <tr>
+                                <td>Status: </td>
+                                <td><input type="text"  class="inp" id="ip-status" disabled></td>
+                            </tr>                          
+                            <tr>
+                                <td>Tag: </td>
+                                <td><input type="text"  class="inp" id="ip-courseImg" disabled></td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td id="message" colspan="2" style="color: red"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><span id="course-image"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    <!-- <script type="text/javascript" src="../Script/InstructorCourses.js"></script> -->
+    <script type="text/javascript">
+         $(document).ready(function () {
+// ------------ To get list of products
+    $.ajax({
+        type: "GET", url: "http://localhost:53057/api/Enrolled", success: (response) => {
+            $(".data").remove();
+            for (let i = 0; i < response.length; i++) {
+                let productDetails = response[i];
+
+                let str = "<tr class='data'><td>"+productDetails.EnrolledID+"</td> <td>"+productDetails.Title+"</td> <td>"+productDetails.Names+"</td><td>"+productDetails.CourseStatus+"</td><td><button type='button' class='btn btn-dark btnView' data-toggle='modal' data-target='#ViewModel' data-courseId=" + productDetails.EnrolledID + ">View</button></td></tr>";
+                $(".ProdTable").append(str);
+
+            }
+        }, error: (err) => {
+            alert(err)
+            console.log(err);
+        }
+    });
+
+let currentId;
+//-------------- To display the details in dialouge box
+$(document).on("click", ".btnView", (event) => {
+            
+            //target property return the element that triggrered the event.
+            $("#message").html("");
+            $(".inp").attr('disabled',true);
+            $(".inp").css('border','none');
+            $("#course-image").css('display','block');
+            let courseId = $(event.target).attr("data-courseId");
+            currentId = courseId;
+            
+            $.ajax({
+                type: "GET", url: "http://localhost:53057/api/Enrolled?ID=" + courseId,
+                 success: (response) => {
+                    
+                    $("#ViewModel").modal();
+                    $("#ip-courseId").val(response.CourseID);
+                    $("#ip-courseTitle").val(response.Title);
+                    $("#ip-courseDescription").val(response.Desriptions);
+                    $("#ip-courseFee").val(response.Fee);
+                    $("#ip-courseImg").val(response.Img); 
+                    $("#ip-studentId").val(response.UserID); 
+                    $("#ip-studentName").val(response.Names); 
+                    $("#ip-enrolledId").val(response.EnrolledID); 
+                    $("#ip-status").val(response.CourseStatus); 
+                    // $("#ip-enrolledId").val(response.EnrolledID); 
+                    $("#ip-courseCategory").val(response.Category);
+                    $("#ip-courseContent").val(response.Content);
+                    $("#course-image").html("<img src="+response.Img+" alt='Course Image'  width='300px' height='auto'>")  
+                },
+                error: (err) => {
+                    alert(err)
+                    
+                }
+            });
+        });
+    });
+    </script>
+
+	
+</body>
+</html>

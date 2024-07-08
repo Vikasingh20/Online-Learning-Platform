@@ -1,0 +1,211 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GroSeries | Online Groceries & Daily use Products</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="../Css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="icon" href="./images/apple-touch-icon.png">
+    <!-- Link to Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <!-- Logo -->
+        <a href="Product.html" class="logo">L'Earn</a>
+        <li><input class="form-control1 " type="search" placeholder="Search" aria-label="Search" id="Searchme"></li>
+        <li><a href="HomeLogin.html">Home</a></li>
+        <li><a href="Product.html">Coding</a></li>
+        <li><a href="Marketing.html">Marketing</a></li>
+        <li><a href="CartPage.html">Enrolled Courses</a></li>
+        <li><a href="login.html">Logout</a></li>
+
+       
+        <!-- <a href="#"><img src="./image/FinalLogo.png" class="logo" alt=""></a> -->
+        <!-- Cart Icon -->
+
+        <!-- <a href="CartPage.html"><i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i></a> -->
+      </div>
+    </header>
+    <!-- Products -->
+    <section class="shop container">
+      <h2 class="section-title">My Courses</h2>
+      <h2 style="position: absolute; left: 45vw " class="section-title cart-empty">No Courses Found</h2>
+      <!-- Shop Content -->
+      <div class="shop-content">
+        <!-- Box 1 -->
+        <!-- <div class="product-box"> -->
+            <!-- Stripe need images that are on online on local server it will not show in stripe checkout page we have to upload online -->
+            <!-- <img src="ShoppingProduts\cloth5.jpg" alt="" class="product-img">
+            <h2 class="product-title">ADICOLOR SEASONAL </h2>
+            <span class="price">$50</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div> -->
+        
+      </div>
+    </section>
+    <footer style="position: relative; bottom: 0; width: 100vw;" class="section-p1">
+        <div class="column">
+            <img class="logo" src="" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 132, Street Mazagaon, Navi Mumbai</p>
+            <p><strong>Phone:</strong> +91 8850364608</p>
+            <p><strong>Working Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="Follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                   <i class="fab fa-facebook-f"></i>
+                   <i class="fab fa-twitter"></i>
+                   <i class="fab fa-instagram"></i>
+                   <i class="fab fa-pinterest-p"></i>
+                   <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="column install" >
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <!-- <img src="images/appstore.png" alt="">
+                <img src="images/googleplay.jpg" alt=""> -->
+            </div>
+            <p>Secured Follow link (ctrl + click)</p>
+            <!-- <img src="images/payment1.png" alt=""> -->
+        </div>
+        
+    </footer>
+    <!-- Link to JS -->
+   <script type="text/javascript" src="../Script/CartPage.js"></script>
+    <!-- <script>
+      // var productId;
+   
+    //---------  function to display product 
+    function ViewProduct() {
+      try {
+        $.ajax({
+          type: "GET", url: "http://localhost:53057/api/Enrolled", success: (response) => {
+            $(".data").remove();
+            if (response.length == 0) {
+              $(".cart-empty").css("display", "inline");
+            }
+            else {
+
+              $(".cart-empty").css("display", "none");
+            }
+            let userId = localStorage.getItem("userIdFromStorage");
+            for (var i = 0; i < response.length; i++) {
+              var productDetails = response[i];
+              if (productDetails.UserID == userId) {
+                var str = "<div class='product-box'><img src='" + productDetails.Img + "' class='product-img'><h2 class='product-title'>" + productDetails.Title + "</h2><h3 class='product-description'>" + productDetails.Desriptions + "</h3><span class='price'>Rs: " + productDetails.Fee + "</span><button class='buy-now remove-item' data-enrollId=" + productDetails.EnrolledID + " data-courseTitle=" + productDetails.Title + " data-courseFee=" + productDetails.Fee + " data-Img=" + productDetails.Img + " data-content=" + productDetails.Content + " data-description=" + productDetails.Descriptions + " data-category=" + productDetails.Category + ">Unenroll</button></div>"
+
+                $(".shop-content").append(str);
+
+              }
+              // var str = "<div class='product-box'><img src='"+productDetails.Img+"' class='product-img'><h2 class='product-title'>"+productDetails.Title+"</h2><p><span class='price'>Quantity: "+productDetails.Fee+"</span></p><p><span class='price'>Price: Rs. "+productDetails.ProdPrice+"</span></p><p><span class='price'>Total: Rs. "+productDetails.ProdTotal+"</span></p><div class='btns'><button type='button' class='remove-item' data-re-Id="+productDetails.OrderID+">Unenroll</button></div></div>"
+              // <button class='buy-now' data-prodId="+productDetails.ProductID+" data-prodName="+productDetails.ProdName+" data-prodPrice="+productDetails.ProdPrice+" data-tag="+productDetails.Tag+" data-total="+productDetails.ProdTotal+" data-orderId="+productDetails.OrderID+" data-qty="+productDetails.ProdQty+">Buy Now</button><button type='button' class='remove-item' data-re-Id="+productDetails.OrderID+">Remove</button>
+
+            }
+          }, error: (err) => {
+            alert(err)
+            console.log(err);
+          }
+        });
+      } catch (error) {
+        alert(error)
+      }
+    }
+    ViewProduct();
+    $(document).on("click", ".remove-item", (event) => {
+      var enrollId = $(event.target).attr("data-enrollId");
+
+      $.ajax({
+        type: "DELETE", url: "http://localhost:53057/api/Enrolled?ID=" + enrollId, success: (response) => {
+          alert("You have successfully unenrolled from the course.")
+          window.location.href = "CartPage.html";
+        },
+        error: (err) => {
+          alert(err);
+        }
+      });
+    });
+  //      // ---------- script to add product to cart
+  //  $(document).on("click", ".buy-now", (event)=>{
+  //   // alert('Order placed');
+  //     var prodId = $(event.target).attr("data-prodId");
+  //     var prodName = $(event.target).attr("data-prodName");
+  //     var prodPrice = $(event.target).attr("data-prodPrice");
+  //     var tag = $(event.target).attr("data-tag");
+  //     var total = $(event.target).attr("data-total");
+  //     var qty = $(event.target).attr("data-qty");
+  //     var userId = localStorage.getItem("userIdFromStorage");
+   
+ 
+  //   localStorage.setItem("productID",prodId);
+  //   localStorage.setItem("productName", prodName);
+  //   localStorage.setItem("productPrice", prodPrice);
+  //   localStorage.setItem("productTag", tag);
+  //   localStorage.setItem("productTotal", total);
+  //   localStorage.setItem("productQty", qty);
+  //   window.location.href="Paynow.html";
+    
+  //   //   var prodId = $(event.target).attr("data-prodId");
+  //   //   var prodName = $(event.target).attr("data-prodName");
+  //   //   var prodPrice = $(event.target).attr("data-prodPrice");
+  //   //   // var prodqty = $("#qty").val();
+  //   //   var prodQty = prompt("Please enter your quantity in numbers");
+  //   //   var userId = localStorage.getItem("userIdFromStorage");
+   
+  //   //   var tag = $(event.target).attr("data-tag");
+  //   //   var total = prodQty * prodPrice;
+   
+  //   //   if(ProdQty > 0 && ProdQty != null){
+  //   //    //---------- Inserting data to Order Table
+  //   //    $.ajax({
+  //   //      type: "POST", url: "http://localhost:49834/api/OrderMaster", data: { "UserID": userId, "ProductID": prodId, "ProdName": prodName, "ProdPrice": prodPrice, "ProdQty": prodQty, "ProdTotal": total, "Tag": tag },
+  //   //      success: () => {
+  //   //        alert("Data added to cart");
+  //   //      }, error: (err) => {
+  //   //        alert(err);
+  //   //      }
+  //   //    });
+  //   //  }
+
+  //  });
+
+  //  var orderId;
+
+
+
+
+     </script> -->
+   
+   
+  </body>
+</html>

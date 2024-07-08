@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebApiDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CartMaster">
+    <Key>
+      <PropertyRef Name="CartID" />
+    </Key>
+    <Property Name="CartID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="ProdName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProdPrice" Type="Int32" />
+    <Property Name="ProdQty" Type="Int32" />
+    <Property Name="ProdTotal" Type="Int32" />
+    <Property Name="Tag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProductMaster" Relationship="Self.FK__CartMaste__Produ__34C8D9D1" FromRole="CartMaster" ToRole="ProductMaster" />
+    <NavigationProperty Name="SignUp" Relationship="Self.FK__CartMaste__UserI__33D4B598" FromRole="CartMaster" ToRole="SignUp" />
+  </EntityType>
+  <EntityType Name="OrderMaster">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="ProdName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProdPrice" Type="Int32" />
+    <Property Name="ProdQty" Type="Int32" />
+    <Property Name="ProdTotal" Type="Int32" />
+    <Property Name="Tag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProductMaster" Relationship="Self.FK__OrderMast__Produ__38996AB5" FromRole="OrderMaster" ToRole="ProductMaster" />
+    <NavigationProperty Name="SignUp" Relationship="Self.FK__OrderMast__UserI__37A5467C" FromRole="OrderMaster" ToRole="SignUp" />
+  </EntityType>
+  <EntityType Name="ProductMaster">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Tag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CartMasters" Relationship="Self.FK__CartMaste__Produ__34C8D9D1" FromRole="ProductMaster" ToRole="CartMaster" />
+    <NavigationProperty Name="OrderMasters" Relationship="Self.FK__OrderMast__Produ__38996AB5" FromRole="ProductMaster" ToRole="OrderMaster" />
+  </EntityType>
+  <EntityType Name="SignUp">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Names" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Passwords" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="UserType" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CartMasters" Relationship="Self.FK__CartMaste__UserI__33D4B598" FromRole="SignUp" ToRole="CartMaster" />
+    <NavigationProperty Name="OrderMasters" Relationship="Self.FK__OrderMast__UserI__37A5467C" FromRole="SignUp" ToRole="OrderMaster" />
+  </EntityType>
+  <Association Name="FK__CartMaste__Produ__34C8D9D1">
+    <End Role="ProductMaster" Type="Self.ProductMaster" Multiplicity="0..1" />
+    <End Role="CartMaster" Type="Self.CartMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductMaster">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="CartMaster">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CartMaste__UserI__33D4B598">
+    <End Role="SignUp" Type="Self.SignUp" Multiplicity="0..1" />
+    <End Role="CartMaster" Type="Self.CartMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SignUp">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="CartMaster">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderMast__Produ__38996AB5">
+    <End Role="ProductMaster" Type="Self.ProductMaster" Multiplicity="0..1" />
+    <End Role="OrderMaster" Type="Self.OrderMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductMaster">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="OrderMaster">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderMast__UserI__37A5467C">
+    <End Role="SignUp" Type="Self.SignUp" Multiplicity="0..1" />
+    <End Role="OrderMaster" Type="Self.OrderMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SignUp">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="OrderMaster">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WebApiDataBaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CartMasters" EntityType="Self.CartMaster" />
+    <EntitySet Name="OrderMasters" EntityType="Self.OrderMaster" />
+    <EntitySet Name="ProductMasters" EntityType="Self.ProductMaster" />
+    <EntitySet Name="SignUps" EntityType="Self.SignUp" />
+    <AssociationSet Name="FK__CartMaste__Produ__34C8D9D1" Association="Self.FK__CartMaste__Produ__34C8D9D1">
+      <End Role="ProductMaster" EntitySet="ProductMasters" />
+      <End Role="CartMaster" EntitySet="CartMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CartMaste__UserI__33D4B598" Association="Self.FK__CartMaste__UserI__33D4B598">
+      <End Role="SignUp" EntitySet="SignUps" />
+      <End Role="CartMaster" EntitySet="CartMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderMast__Produ__38996AB5" Association="Self.FK__OrderMast__Produ__38996AB5">
+      <End Role="ProductMaster" EntitySet="ProductMasters" />
+      <End Role="OrderMaster" EntitySet="OrderMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderMast__UserI__37A5467C" Association="Self.FK__OrderMast__UserI__37A5467C">
+      <End Role="SignUp" EntitySet="SignUps" />
+      <End Role="OrderMaster" EntitySet="OrderMasters" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
